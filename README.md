@@ -8,49 +8,52 @@
 
 # write.skill
 
-**把写作经验，蒸馏成可复用的认知资产。**
+**写不出来？不是你的问题，是你的写作系统太烂。**
 
-> 每一个 Great Writer，都有一套个人写作系统。
-> 我们把这套系统，拆成针对不同平台、受众、领域的 Agent Skills。
+> 我把这些年写废的 200+ 篇草稿、删掉的重写版本、半夜三点突然想通的结构，
+> 全部蒸馏成了这套「偷懒也能写好」的 Agent Skills。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-Compatible-blueviolet)](https://skills.sh)
-[![Built with](https://img.shields.io/badge/Built%20with-Nuwa%20Skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
 </div>
 
 ---
 
-## 为什么写作需要 Skill
+## 先吐槽：为什么写东西这么痛苦 😤
 
-写作不是等灵感降临，是**工程问题**。
+你是不是也这样：
 
-同样的主题，写给知乎还是公众号，结构完全不同。写给技术专家还是入门小白，深度完全不同。写给决策者还是执行者，侧重点完全不同。
+- 打开编辑器，光标闪了 30 分钟，最后去刷知乎了 📱
+- 憋了一周终于写完，发出去 3 个赞，其中一个是自己小号 👤
+- 明明做了很牛的项目，写出来像流水账，连同事都看不完 🥱
+- 每次从零开始搭结构，下次写又忘了上次怎么写的 🔄
+- 看别人写得轻松，自己写像便秘——有感觉的时候写不出来，写出来的时候没感觉了 💩
 
-大多数人每次写作都从零开始：想选题、搭结构、调语气、改措辞……重复造轮子。
+**真相：写作不是等灵感，是搭系统。**
 
-**write.skill 的解法**：把每个场景的最佳实践，封装成可运行的 Agent Skill。你不需要记住 50 条写作规则，你只需要说「用知乎技术 IP skill 帮我看看这篇回答」。
+牛顿被苹果砸到才发现万有引力？假的。他在那之前已经研究了 20 年。所谓的"灵感"，都是系统运转到临界点的副产品。
+
+我把这套系统拆成了针对不同平台、不同受众、不同领域的 Skills。你不需要记住 50 条规则，只需要说：**「帮我用知乎技术 IP skill 看看这篇回答」**。
 
 ---
 
-## 三维体系：平台 × 受众 × 领域
-
-write.skill 按三个维度组织。你可以像搭积木一样组合使用。
+## 三维体系：像搭积木一样组合 🧱
 
 ### 维度一：平台（Platform）
 
-不同平台的算法、读者预期、内容寿命完全不同。
+不同平台的算法、读者预期、内容寿命完全不同。在知乎写深度回答的人，去公众号会死得很惨（别问我怎么知道的）。
 
 | Skill | 平台 | 核心策略 | 状态 |
 |:---|:---|:---|:---|
-| `zhihu-tech-ip` | 知乎 | 问题驱动、建立专业信任、面向同行工程师 | ✅ 已发布 |
-| `wechat-essay` | 公众号 | 叙事节奏、情绪曲线、私域转化 | 🚧 计划中 |
-| `x-tech-thread` | X/Twitter | 钩子密度、Thread 结构、传播设计 | 🚧 计划中 |
-| `juejin-dev` | 掘金 | 代码片段优先、实战导向、社区互动 | 🚧 计划中 |
+| `zhihu-tech-ip` | 知乎 | 问题驱动、建立专业信任、同行工程师爱看 | ✅ 已发布 |
+| `wechat-essay` | 公众号 | 叙事节奏、情绪曲线、私域转化 | 🚧 规划中 |
+| `x-tech-thread` | X/Twitter | 钩子密度、Thread 结构、传播设计 | 🚧 规划中 |
+| `juejin-dev` | 掘金 | 代码片段优先、实战导向、社区互动 | 🚧 规划中 |
 
 ### 维度二：受众（Audience）
 
-同一话题，写给不同的人，写法完全不同。
+同一话题，写给不同的人，写法完全不同。给专家看的东西发给小白，会被骂"不说人话"；给小白看的东西发给专家，会被骂"浪费生命"。
 
 | 受众定位 | 信任来源 | 内容特征 | 典型句式 |
 |:---|:---|:---|:---|
@@ -61,7 +64,7 @@ write.skill 按三个维度组织。你可以像搭积木一样组合使用。
 
 ### 维度三：领域（Domain）
 
-技术、商业、个人成长、科学……每个领域的论证方式和信任信号不同。
+技术、商业、个人成长……每个领域的论证方式和信任信号不同。在工程里"代码能跑"就是证据，在商业里"财报数据"才是证据。
 
 | 领域 | 核心信任信号 | 典型反模式 |
 |:---|:---|:---|
@@ -72,7 +75,7 @@ write.skill 按三个维度组织。你可以像搭积木一样组合使用。
 
 ---
 
-## 核心原则
+## 5 条核心原则（血泪总结）💧
 
 | # | 原则 | 说明 |
 |:---|:---|:---|
@@ -86,7 +89,7 @@ write.skill 按三个维度组织。你可以像搭积木一样组合使用。
 
 ## 已有 Skill
 
-### zhihu-tech-ip：知乎技术 IP 深度写作教练
+### zhihu-tech-ip：知乎技术 IP 深度写作教练 📝
 
 **定位**：帮技术专家在知乎建立专业信任，**不为小白写科普**。
 
@@ -107,11 +110,11 @@ cp -r skills/zhihu-tech-ip ~/.agents/skills/
 
 ---
 
-## 快速开始
+## 快速开始 🚀
 
 ### 方式一：作为 Agent Skill 安装
 
-如果你使用支持 SKILL.md 格式的 Agent 工具（如 Qoder、Claude Code、Codex 等）：
+如果你使用支持 SKILL.md 格式的 Agent 工具（如 Qoder、Claude Code 等）：
 
 ```bash
 # 克隆仓库
@@ -130,7 +133,7 @@ cp -r write.skill/skills/zhihu-tech-ip ~/.agents/skills/
 
 ---
 
-## 如何贡献
+## 如何贡献 🤝
 
 write.skill 欢迎所有领域的写作专家贡献 Skill。
 
@@ -163,7 +166,7 @@ skills/{skill-name}/
 
 ---
 
-## 路线图
+## 路线图 🗺️
 
 | 阶段 | 目标 | 时间 |
 |:---|:---|:---|
@@ -176,40 +179,33 @@ skills/{skill-name}/
 
 ## 关于作者
 
-write.skill 是 [女娲 Skill 造人术](https://github.com/alchaincyf/nuwa-skill) 生态的一部分。
+**蒸馏的猫**
+
+一个写东西经常便秘、所以干脆研究了一套写作系统的工程师。
 
 | | |
 |:---|:---|
-| 🌐 官网 | [bookai.top](https://bookai.top) |
-| 𝕏 Twitter | [@AlchainHust](https://x.com/AlchainHust) |
-| 📺 B站 | [花叔](https://space.bilibili.com/14097567) |
-| 💬 公众号 | 微信搜「花叔」 |
+| 📖 知乎 | [蒸馏的猫](https://www.zhihu.com) |
+| 💬 公众号 | 微信搜「蒸馏的猫」 |
 
----
+**为什么做这个？**
 
-## 致谢
-
-- [女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill)：提供 Skill 蒸馏的方法论框架
-- [达尔文 · Skill 进化器](https://github.com/alchaincyf/darwin-skill)：提供 Skill 优化的工程化流程
+因为我自己就是受害者。写过 200+ 篇草稿，删掉的重写版本堆成山，半夜三点突然想通结构是常态。这套系统是我把自己从"写不出来"的地狱里捞出来的工具箱，现在分享给你。
 
 ---
 
 ## 许可证
 
-MIT
+MIT License © [蒸馏的猫](https://github.com/alchaincyf)
 
 ---
 
 <div align="center">
 
-**[女娲](https://github.com/alchaincyf/nuwa-skill)** 造 Skill。<br>
-**[达尔文](https://github.com/alchaincyf/darwin-skill)** 让 Skill 进化。<br>
-**write.skill** 让写作成为工程。<br><br>
-
 *好的写作不是天赋，是可复用的系统。*
 
 <br>
 
-MIT License © [花叔 Huashu](https://github.com/alchaincyf)
+**写不出来的时候，不是你不行，是你的系统该升级了。** 🔧
 
 </div>
