@@ -118,7 +118,7 @@ cp -r skills/zhihu-tech-ip ~/.agents/skills/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/alchaincyf/write.skill.git
+git clone https://github.com/ThistleInTheSun/write.skill.git
 
 # 安装你需要的 Skill
 cp -r write.skill/skills/zhihu-tech-ip ~/.agents/skills/
@@ -185,7 +185,7 @@ skills/{skill-name}/
 
 | | |
 |:---|:---|
-| 📖 知乎 | [蒸馏的猫](https://www.zhihu.com) |
+| 📖 知乎 | [蒸馏的猫](https://www.zhihu.com/people/xin-qing-32-53-61) |
 | 💬 公众号 | 微信搜「蒸馏的猫」 |
 
 **为什么做这个？**
@@ -196,7 +196,7 @@ skills/{skill-name}/
 
 ## 许可证
 
-MIT License © [蒸馏的猫](https://github.com/alchaincyf)
+MIT License © [蒸馏的猫](https://github.com/ThistleInTheSun)
 
 ---
 
